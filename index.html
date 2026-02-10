@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Розмитнення автомобіля, розрахунок митних платежів</title>
+    <meta name="description" content="Швидке та економне розмитнення легкових, вантажних автомобілів та с/г техніки. Домомога та супровід на всіх етапах +380976984680">
+    <meta name="keywords" content="розмитнення авто, митні платежі, калькулятор розмитнення, розмитнення автомобіля Вінниця, розмитнення авто з Європи">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Скільки коштує розмитнення авто">
+    <meta property="og:description" content="Надаємо повний спектр послуг по розмитненню автомобілів з Європи та Америки">
+    <meta property="og:image" content="3.png">
+    <meta property="og:url" content="https://brokervn.com.ua">
+    <meta property="og:site_name" content="Broker_vn">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="3.png">
+    <link rel="apple-touch-icon" href="3.png">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ============================================
+         HEADER
+         ============================================ -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo-text">BROKER_VN</div>
+            
+            <nav class="nav">
+                <a href="#hero">Головна</a>
+                <a href="#calculators">Калькулятори</a>
+                <a href="#faq">FAQ</a>
+                <a href="#contact">Контакти</a>
+            </nav>
+
+            <button class="menu-toggle">☰</button>
+        </div>
+    </header>
+
+    <!-- ============================================
+         HERO SECTION
+         ============================================ -->
+    <section id="hero" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Розрахуй мито та замов розмитнення авто за дві хвилини
+                </h1>
+                <p class="hero-description">
+                    Допомагаємо розмитнити авто з Європи без стресу. Онлайн-калькулятор та безкоштовна консультація від експерта.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         CALCULATORS SECTION
+         ============================================ -->
+    <section id="calculators" class="calculators-section">
+        <div class="calc-container">
+            
+            <!-- Header -->
+            <div class="calc-header">
+                <h2 class="calc-title">Розрахунок митних платежів</h2>
+                <p class="calc-subtitle">
+                    За допомогою наших калькуляторів розрахунку митних платежів, можна попередньо оцінити витрати на розмитнення авто.
+                </p>
+            </div>
+
+            <!-- Calculator Cards Grid -->
+            <div class="calc-grid">
+                
+                <!-- Card 1: Passenger Cars -->
+                <div class="calc-card" onclick="openCalculator('passenger')">
+                    <div>
+                        <div class="calc-card-icon">🚗</div>
+                        <h3>Калькулятор розмитнення легкових авто</h3>
+                        <p class="calc-card-desc">Розрахунок митних платежів для легкових автомобілів</p>
+                    </div>
+                </div>
+
+                <!-- Card 2: Electric Cars -->
+                <div class="calc-card" onclick="openCalculator('electric')">
+                    <div>
+                        <div class="calc-card-icon">⚡</div>
+                        <h3>Калькулятор розрахунку електро автомобілів</h3>
+                        <p class="calc-card-desc">Спеціальний розрахунок для електромобілів</p>
+                    </div>
+                </div>
+
+                <!-- Card 3: Cargo Vans -->
+                <div class="calc-card" onclick="openCalculator('cargo')">
+                    <div>
+                        <div class="calc-card-icon">🚐</div>
+                        <h3>Калькулятор розмитнення вантажних авто</h3>
+                        <p class="calc-card-desc">Розрахунок для вантажних автомобілів та бусів</p>
+                    </div>
+                </div>
+
+                <!-- Card 4: Trucks -->
+                <div class="calc-card" onclick="openCalculator('truck')">
+                    <div>
+                        <div class="calc-card-icon">🚛</div>
+                        <h3>Розрахунок для тягачів та напівпричепів</h3>
+                        <p class="calc-card-desc">Калькулятор для тягачів з EUR.1 сертифікатом</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ============================================
+         FAQ SECTION
+         ============================================ -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            
+            <!-- Title -->
+            <div class="title-wrapper">
+                <h2 class="faq-main-title">Відповіді на актуальні питання щодо розмитнення автомобілів в Україні</h2>
+            </div>
+
+            <!-- FAQ Cards Grid -->
+            <div class="faq-grid">
+                
+                <!-- FAQ 1: Документи -->
+                <div class="faq-card card-tall" data-faq="documents">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zM6 20V4h7v5h5v11H6z"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-question">Які документи потрібні для розмитнення авто</h3>
+                    <p class="card-hint">Повний список необхідних документів</p>
+                </div>
+
+                <!-- FAQ 2: Оцінка -->
+                <div class="faq-card card-medium" data-faq="valuation">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-question">Оцінка автомобіля для розмитнення</h3>
+                    <p class="card-hint">Чому важлива експертна оцінка</p>
+                </div>
+
+                <!-- FAQ 3: Купівля -->
+                <div class="faq-card card-wide" data-faq="buying">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.5 16c-.83 0-1.5-.67-1.5-1.5S5.67 13 6.5 13s1.5.67 1.5 1.5S7.33 16 6.5 16zm11 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM5 11l1.5-4.5h11L19 11H5z"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-question">Купівля не розмитнених автомобілів в Україні</h3>
+                    <p class="card-hint">На що звернути увагу при покупці</p>
+                </div>
+
+                <!-- FAQ 4: Категорія -->
+                <div class="faq-card card-small" data-faq="category">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-question">Які автомобілі розмитнюються як легкові</h3>
+                    <p class="card-hint">Категорія M1 та характеристики</p>
+                </div>
+
+                <!-- FAQ 5: США -->
+                <div class="faq-card card-tall" data-faq="usa">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-question">Як порахувати митний платіж для автомобілів з Америки</h3>
+                    <p class="card-hint">Особливості розрахунку для авто з США</p>
+                </div>
+
+                <!-- FAQ 6: Електро -->
+                <div class="faq-card card-medium" data-faq="electric">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M15.67 4H14V2h-4v2H8.33C7.6 4 7 4.6 7 5.33v15.33C7 21.4 7.6 22 8.33 22h7.33c.74 0 1.34-.6 1.34-1.33V5.33C17 4.6 16.4 4 15.67 4zM11 20v-5.5H9L13 7v5.5h2L11 20z"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-question">Нарахування митного платежу для електромобілів</h3>
+                    <p class="card-hint">Спеціальні умови для електрокарів</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ============================================
+         FIXED BOTTOM BUTTONS
+         ============================================ -->
+    <div class="fixed-buttons">
+        <!-- Consultation Button (Left) -->
+        <button class="consultation-btn" onclick="openConsultationModal()">
+            <span>📞</span>
+            Отримати консультацію
+        </button>
+
+        <!-- Social Button (Right) -->
+        <button class="social-btn" onclick="toggleSocialMenu()">
+            <span>✉️</span>
+        </button>
+    </div>
+
+    <!-- Social Menu -->
+    <div class="social-menu" id="socialMenu">
+        <a href="https://facebook.com/brokervinnitsa" class="social-item" target="_blank">
+            <span class="social-icon">📘</span>
+            <span>Facebook</span>
+        </a>
+        <a href="https://instagram.com/broker_vn" class="social-item" target="_blank">
+            <span class="social-icon">📷</span>
+            <span>Instagram</span>
+        </a>
+        <a href="https://t.me/SD983" class="social-item" target="_blank">
+            <span class="social-icon">✈️</span>
+            <span>Telegram</span>
+        </a>
+        <a href="viber://chat?number=380976984680" class="social-item">
+            <span class="social-icon">💜</span>
+            <span>Viber</span>
+        </a>
+        <a href="https://wa.me/380976984680" class="social-item" target="_blank">
+            <span class="social-icon">💬</span>
+            <span>WhatsApp</span>
+        </a>
+        <a href="mailto:brokervinnitsa@gmail.com" class="social-item">
+            <span class="social-icon">📧</span>
+            <span>Пошта</span>
+        </a>
+    </div>
+
+    <!-- ============================================
+         MODALS CONTAINER
+         ============================================ -->
+    
+    <!-- Consultation Modal -->
+    <div id="consultationModal" class="modal">
+        <div class="modal-overlay" onclick="closeConsultationModal()"></div>
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeConsultationModal()">&times;</button>
+            
+            <h2 class="modal-title">Замовити дзвінок</h2>
+            
+            <form id="consultationForm" onsubmit="submitConsultation(event)">
+                <div class="form-group">
+                    <label class="form-label">Ваше ім'я</label>
+                    <input type="text" id="consult-name" class="form-input" placeholder="Введіть ім'я" required>
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Номер телефону</label>
+                    <input type="tel" id="consult-phone" class="form-input" placeholder="+380 XX XXX XX XX" required>
+                </div>
+
+                <div class="modal-buttons">
+                    <button type="submit" class="btn-call">Замовити дзвінок</button>
+                    <a href="tel:+380976984680" class="btn-phone">Зателефонувати зараз</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- FAQ Modal -->
+    <div id="faqModal" class="modal">
+        <div class="modal-overlay" onclick="closeFaqModal()"></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="modal-close" onclick="closeFaqModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <h3 id="modalQuestion" class="modal-question"></h3>
+                <div id="modalAnswer" class="modal-answer"></div>
+                <button class="share-button" onclick="shareFAQ()">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z"/>
+                    </svg>
+                    Поділитися
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Calculator Modals Container -->
+    <div id="calc-modals-container"></div>
+
+    <!-- ============================================
+         FOOTER
+         ============================================ -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <div class="footer-logo">
+                    <img src="3.png" alt="Broker_vn Logo" class="footer-logo-img">
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="footer-contacts">
+                    <p class="footer-country">🇺🇦 Україна</p>
+                    <p class="footer-city">📍 м. Вінниця</p>
+                    <p class="footer-phone">
+                        <a href="tel:+380976984680">📞 +380 97 698 46 80</a>
+                    </p>
+                    <p class="footer-email">
+                        <a href="mailto:brokervinnitsa@gmail.com">✉️ brokervinnitsa@gmail.com</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Broker_vn. Всі права захищені.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
