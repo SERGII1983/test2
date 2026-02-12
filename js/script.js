@@ -957,11 +957,11 @@ async function submitConsultation(e) {
     // ВАЖЛИВО: Для роботи потрібно створити Telegram бота через @BotFather
     // та отримати Bot Token і Chat ID
     
-    const TELEGRAM_BOT_TOKEN = 'YOUR_BOT_TOKEN_HERE'; // Замінити на свій токен
-    const TELEGRAM_CHAT_ID = 'YOUR_CHAT_ID_HERE';     // Замінити на свій Chat ID
+    const TELEGRAM_BOT_TOKEN = 8297790813:AAEjI1NAdEgb3Y3gxQC_Fa9eGKXHQ6xj8Us // Замінити на свій токен
+    const TELEGRAM_CHAT_ID = 306920212;     // Замінити на свій Chat ID
     
     // Відправка в Telegram (розкоментуйте після налаштування)
-    /*
+    
     try {
         const telegramResponse = await fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`, {
             method: 'POST',
@@ -981,7 +981,7 @@ async function submitConsultation(e) {
     } catch (error) {
         console.error('Помилка відправки в Telegram:', error);
     }
-    */
+    
 
     // ============================================
     // ВІДПРАВКА НА EMAIL
