@@ -957,8 +957,8 @@ async function submitConsultation(e) {
     // ВАЖЛИВО: Для роботи потрібно створити Telegram бота через @BotFather
     // та отримати Bot Token і Chat ID
     
-    const TELEGRAM_BOT_TOKEN = '8297790813:AAEjI1NAdEgb3Y3gxQC_Fa9eGKXHQ6xj8Us' // Замінити на свій токен
-    const TELEGRAM_CHAT_ID = '306920212';     // Замінити на свій Chat ID
+    const TELEGRAM_BOT_TOKEN = 'свій токен' // Замінити на свій токен
+    const TELEGRAM_CHAT_ID = 'свій ID';     // Замінити на свій Chat ID
     
     // Відправка в Telegram (розкоментуйте після налаштування)
     
