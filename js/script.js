@@ -997,7 +997,7 @@ async function submitConsultation(e) {
     };
 
     // Відправка на email через FormSubmit (розкоментуйте після налаштування)
-    /*
+    
     try {
         const emailResponse = await fetch('https://formsubmit.co/brokervinnitsa@gmail.com', {
             method: 'POST',
@@ -1021,7 +1021,7 @@ async function submitConsultation(e) {
     } catch (error) {
         console.error('Помилка відправки email:', error);
     }
-    */
+    
 
     // Показуємо повідомлення користувачу
     alert('Дякуємо! Ми зателефонуємо вам найближчим часом.');
