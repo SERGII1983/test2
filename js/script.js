@@ -38,7 +38,7 @@ const calculatorTemplates = {
                             <option value="2012">2012</option>
                             <option value="2011">2011</option>
                             <option value="2010">2010</option>
-                            <option value="">Старше</option>
+                            <option value="Старше">Старше</option>
                         </select>
                     </div>
                 </div>
@@ -409,7 +409,7 @@ async function calculatePassenger() {
     const yearMapping = {
         "2024": 1, "2023": 2, "2022": 3, "2021": 4, "2020": 5,
         "2019": 6, "2018": 7, "2017": 8, "2016": 9, "2015": 10,
-        "2014": 11, "2013": 12, "2012": 13, "2011": 14, "2010": 15, "": 15
+        "2014": 11, "2013": 12, "2012": 13, "2011": 14, "2010": 15, "Старше": 15
     };
     const yearValue = yearMapping[year] || 15;
 
